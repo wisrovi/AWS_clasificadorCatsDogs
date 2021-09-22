@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  api_IA:
+    container_name: api_IA
+    image: api
+    ports:
+      - 52000:1990
+    privileged: true
